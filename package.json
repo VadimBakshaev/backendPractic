@@ -1,0 +1,28 @@
+{
+  "name": "backpractic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadimBakshaev/backendPractic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VadimBakshaev/backendPractic/issues"
+  },
+  "homepage": "https://github.com/VadimBakshaev/backendPractic#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-handlebars": "^8.0.3"
+  }
+}

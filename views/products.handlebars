@@ -1,0 +1,17 @@
+PRODUCTS
+
+<div class="menu">
+    <a href="/">index</a>
+    <a href="/contact">contact</a>
+    <a href="/about">about</a>
+</div>
+
+<div class="products">
+    {{#each products}}
+    <div class="product">
+        <div class="title">{{{title}}}</div>
+        <div class="description">{{{description}}}</div>
+        <div class="price">{{{price}}} $</div>
+    </div>
+    {{/each}}
+</div>
