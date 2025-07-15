@@ -2,10 +2,7 @@ const express = require('express');
 const path = require('path');
 const eh = require('express-handlebars');
 
-const indexRoutes = require('./routes/index');
-const aboutRoutes = require('./routes/about');
-const contactRoutes = require('./routes/contact');
-const productsRoutes = require('./routes/products');
+const routes = require('./routes/products');
 
 const app = express();
 
