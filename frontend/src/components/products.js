@@ -4,7 +4,7 @@ export class Products {
         this.getProducts().then(products => this.fillProducts(products));
     };
     async getProducts() {
-        const response = await fetch('/api/products');
+        const response = await fetch('http://localhost:3000/api/products');
         return await response.json();
     };
     fillProducts(products) {
