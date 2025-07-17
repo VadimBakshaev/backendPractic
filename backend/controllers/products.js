@@ -19,6 +19,11 @@ class ProductsController {
         const product = await ProductModel.change(id, req.body);
         res.send(product);
     };
+    static async deleteProduct(req, res) {
+        const {id}=req.params;
+        await ProductModel.delete(id);
+        res.send({});
+    };
 }
 
 module.exports = ProductsController;

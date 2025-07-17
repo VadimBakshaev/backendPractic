@@ -10,8 +10,9 @@ export class Products {
     fillProducts(products) {
         if (products && products.length > 0) {
             products.forEach(product => {
-                const productEl = document.createElement('div');
+                const productEl = document.createElement('a');
                 productEl.className = 'product';
+                productEl.href = '/#/product?id=' + product.id;
 
                 const titleEl = document.createElement('div');
                 titleEl.className = 'title';
